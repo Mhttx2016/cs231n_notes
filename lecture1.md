@@ -24,5 +24,9 @@ evaluate the performance, and finally average the performance across the differe
 * algorithm and libraries accelerate the nearst neighbor lookup(e.g.[FLANN](http://www.cs.ubc.ca/research/flann/))
 
 **t-SNE(t-Distributed Stochastic Neighbor Embedding)**
-* 
+* [t-SNE](https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw), [youtube](https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw)
 * [Implementations](https://lvdmaaten.github.io/tsne/)
+
+**KL divergence**
+* [Kullback–Leibler divergence](https://www.jianshu.com/p/43318a3dc715) (also called relative entropy) is a measure of how 
+one probability distribution diverges from a second, expected probability distribution
