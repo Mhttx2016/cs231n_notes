@@ -26,7 +26,7 @@ evaluate the performance, and finally average the performance across the differe
 **t-SNE(t-Distributed Stochastic Neighbor Embedding)**
 * [t-SNE](http://bindog.github.io/blog/2016/06/04/from-sne-to-tsne-to-largevis/)
   - 在高维空间相似的数据点，映射到低维空间距离也是相似的。常规的做法是用欧式距离表示这种相似性，而SNE把这种距离关系转换为一种条件概率来表示相似性.
-  - t-SNE算法在SNE的基础上增加了两个改进：一是把SNE变为对称SNE，二是在低维空间中采用了t分布代替原来的高斯分布，高维空间不变,对于高维空间中相距较近的点，为了满足p<sub>ij</sub>=q<sub>ij</sub>，低维空间中的距离需要稍小一点；而对于高维空间中相距较远的点，为了满足p<sub>ij</sub>=q<sub>ij</sub>，低维空间中的距离需要更远.
+  - t-SNE算法在SNE的基础上增加了两个改进：一是把SNE变为对称SNE，二是(拥挤问题)在低维空间中采用了t分布代替原来的高斯分布，高维空间不变,对于高维空间中相距较近的点，为了满足p<sub>ij</sub>=q<sub>ij</sub>，低维空间中的距离需要稍小一点；而对于高维空间中相距较远的点，为了满足p<sub>ij</sub>=q<sub>ij</sub>，低维空间中的距离需要更远.
 * [Implementations](https://lvdmaaten.github.io/tsne/)
 
 **KL divergence**
